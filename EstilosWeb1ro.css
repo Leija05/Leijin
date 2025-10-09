@@ -31,9 +31,15 @@ footer {
       margin-top: 30px;
 
 }
-image {     
+img {     
       size: 10px;
+      cursor: pointer;
+      transition: opacity 0.5s ease;
 }
+img.cambiando {
+      opacity: 0;
+}
+
 ul {
       margin: 0;
       padding-left: 20px;
